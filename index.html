@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil de Manon Dewald</title>
+    <meta name="description" content="Ceci est le profil de Manon">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> <!-- Assuming you have FontAwesome library -->
+    <link rel="stylesheet" href="style.css"> <!-- Your custom CSS file -->
+    <style>
+        
+
+        @media (max-width: 768px) {
+            /* Adjustments for smaller screens */
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .container {
+                padding: 0 10px;
+            }
+        }
+
+        /* Styling for tabs */
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tab:hover {
+            background-color: #0056b3;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Style pour les images de matchs */
+        .match-image {
+            margin-bottom: 20px;
+        }
+
+        .match-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+    </style>
+
+  </div>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le site de Manon Dewald, dédié au tennis</h1>
+        <img src="images/pr.jpg" alt="Photo de Manon Dewald" width="200"> <!-- Reduced the size of the photo -->
+        <p>
+            Bonjour et bienvenue sur mon site dédié au tennis. En tant que passionnée de ce sport, j'ai créé cette plateforme pour offrir une source complète d'informations sur les joueurs, les classements, les actualités et les compétitions. Nous nous engageons à vous fournir une expérience enrichissante et informative dans le monde du tennis.
+            <a href="https://live-tennis.eu/fr/classement-atp-live">Découvrez le classement ATP en temps réel</a>
+        </p>
+    </header>
+
+    <div class="container">
+        <!-- Tabs -->
+        <div class="tabs">
+            <div class="tab" onclick="openTab('tab1')">Infos Matchs</div>
+            <div class="tab" onclick="openTab('tab2')">Gossip Life</div>
+            <div class="tab" onclick="openTab('tab3')">Évolution des Classements</div>
+        </div>
+
+        <!-- Tab contents -->
+        <div class="tab-content" id="tab1">
+            <div class="card-white">
+                <h2>Infos sur les matchs</h2>
+                <p>
+                    Cette section est dédiée à vous fournir toutes les informations pertinentes et les anecdotes passionnantes sur les matchs de tennis. Restez informé(e) sur les derniers résultats, les performances des joueurs et les moments forts des tournois.
+                </p>
+                <div class="match-image">
+                    <img src="images/federer-novak.jpg" alt="Match de tennis sur gazon">
+                    <p>Match de tennis sur gazon entre Roger Federer et Novak Djokovic.</p>
+                </div>
+                <div class="match-image">
+                    <img src="images/nadal.jpg" alt="Match de tennis en nocturne">
+                    <p>Match de tennis en nocturne entre Rafael Nadal et Andy Murray.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="tab2">
+          
+            <div class="card-white">
+                <h2>Gossip Life</h2>
+                <p>
+                    Plongez dans les coulisses du monde du tennis avec notre section Gossip Life. Découvrez les scoops croustillants sur la vie privée et professionnelle des joueurs, ains&i que les derniers potins et rumeurs du circuit.
+                </p>
+            </div>
+            <div>  <img src="images/enfants.jpg#
+           <div>
+           < src="images/enfants.jpg alt="Enfants de Federer">
+    <p>Voici Léo et Lenny, les deux garçons de Roger Federer, venant voir leur père après son entraînement à Wimbledon.</p>
+</div>
+        </div>
+
+        <div class="tab-content" id="tab3">
+            <div class="card-white">
+                <h2>Évolution des classements</h2>
+                <p>
+                    Explorez l'évolution des classements ATP et WTA avec notre analyse professionnelle. Obtenez des insights exclusifs sur les performances des joueurs et les tendances à surveiller pour l'année à venir.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      
+        function openTab(tabName) {
+            var i, tabContent;
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
+
+    <div class="tennis-ball"></div>
+    
+    <footer>
+        <p>Le tennis, un sport d'une élégance inégalée et d'une précision incroyable, possède une histoire fascinante qui remonte à plusieurs siècles. Imaginez-vous, au XIIe siècle, des nobles français jouant au jeu de paume, une version primitive du tennis, dans leurs cours royales. Puis, au fil du temps, le sport s'est propagé à travers l'Europe, adoptant des raquettes et des règles plus structurées. Mais c'est vraiment au XIXe siècle que le tennis moderne a commencé à prendre forme, avec la naissance des premiers clubs en Angleterre. Le tournoi de Wimbledon, avec ses courts de gazon, est rapidement devenu le joyau de la couronne, attirant les meilleurs joueurs du monde entier pour rivaliser dans un tournoi aussi historique que prestigieux. De nos jours, le tennis est plus qu'un simple sport, c'est une passion partagée par des millions de fans à travers le globe. Chaque année, nous attendons avec impatience les grands rendez-vous tennistiques, de l'Open d'Australie à Roland-Garros en passant par l'US Open. Les surfaces variées, des tournois épiques et les duels mémorables entre les légendes du tennis font de ce sport un spectacle inoubliable. Et avec l'émergence de nouveaux talents et l'innovation technologique qui ne cesse de progresser, l'histoire du tennis continue de s'écrire, promettant des moments de suspense et d'excitation pour les années à venir.</p>
+    </footer> 
+</body>
+<div class="tennis-ball"></div>
+<div>
+     <i class="fas fa-camera fa-xs"></i>
+</div>
+
+</html>
